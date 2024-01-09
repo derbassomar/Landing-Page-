@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vh;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body{
+    
+    background-position: center center;
+    background-size: cover;
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url(treino\ 4.jpg)
+}
+
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(22, 22, 22, 0.2);
+}
+
+.menu-content {
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.logo{
+        font-size: 1.8rem;
+        letter-spacing: 0.4rem;
+        cursor: pointer;
+    }
+    
+    .menu-content,.lista{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+    
+    .menu-content,.lista,a{
+        text-decoration: none;
+        color: aliceblue;
+        padding: 1.5px;
+        transform: 2ms ease-in;
+        position: relative;
+}
+
+.menu-content,.lista,a:hover{
+    width: 100%;
+    background-color: darkcyan;
+    
+}
+
+main{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mim-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 250px;
+}
+
+.texto-pricipal{
+    width: 850px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.segundo-texto{
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
+}
+       
+.BNT1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.BNTNS,button{
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.BNTNS{
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0;
+    left: 305px;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+
+    
+
+    
+
+   
+    
+    
+
