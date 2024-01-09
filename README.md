@@ -2,7 +2,4 @@
 Projeto Landing Page Academia com  HTML/CSS
 
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="omar-" height="30" width="40" src="file:///C:/Users/omard/OneDrive/%C3%81rea%20de%20Trabalho/programa%C3%A7ao/desafio%20HTML/desafio%20HTML/LandingPage%20Academia/LANDING%20PAGE.index.html>
-  
-</div>
+<img src="imagem.jpg" alt="<img src="captura de te">![Captura de tela 2024-01-09 162359](https://github.com/derbassomar/Landing-Page-/assets/148890555/b17d249b-64ca-4d18-821d-3aca34b4aa65)
